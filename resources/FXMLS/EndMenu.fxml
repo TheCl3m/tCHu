@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.epfl.tchu.gui.EndScreenController">
+   <children>
+      <ImageView fitHeight="401.0" fitWidth="612.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/end.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="201.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Partie terminée !" wrappingWidth="209.21630859375">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fx:id="text" fill="WHITE" layoutX="138.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Info" wrappingWidth="335.7890625">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="227.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Merci d'avoir joué à tCHu !" wrappingWidth="157.71435546875" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,62 @@
+/* Player information */
+
+#player-stats {
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+#player-stats Circle {
+    -fx-stroke: dimgrey;
+    -fx-stroke-width: 1;
+}
+
+#game-info {
+    -fx-padding: 10;
+    -fx-pref-width: 220;
+    -fx-line-spacing: 3;
+}
+
+#reaction-button {
+    -fx-background-color:
+            linear-gradient(#f0ff35, #a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+    -fx-padding: 5 5 5 5;
+}
+
+#reaction-grid {
+    -fx-alignment: CENTER;
+}
+
+#reaction-button:hover {
+    -fx-background-color:
+            linear-gradient(#f0ff10, #a9ff50),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee10 45%, #80c850 50%);
+}
+#reaction-button:pressed {
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#send-button {
+    -fx-background-color: #1CC8E7;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+    -fx-padding: 5 5 5 5;
+}
+
+#send-button:hover {
+    -fx-background-color: #1795AB;
+}
+#send-button:pressed {
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+.text-field {
+    -fx-padding-right: 5px;
+}
+
